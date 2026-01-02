@@ -116,15 +116,15 @@ dex_import {
 dex_import {
 	name: "com.qti.dpmframework",
 	owner: "oppo",
-	jars: ["proprietary/product/framework/com.qti.dpmframework.jar"],
-	product_specific: true,
+	jars: ["proprietary/system_ext/framework/com.qti.dpmframework.jar"],
+	system_ext_specific: true,
 }
 
 dex_import {
 	name: "dpmapi",
 	owner: "oppo",
-	jars: ["proprietary/product/framework/dpmapi.jar"],
-	product_specific: true,
+	jars: ["proprietary/system_ext/framework/dpmapi.jar"],
+	system_ext_specific: true,
 }
 
 dex_import {
