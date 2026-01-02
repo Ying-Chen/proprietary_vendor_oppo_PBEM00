@@ -123,13 +123,20 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/PBEM00/proprietary/vendor/bin/xtra-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/xtra-daemon \
     vendor/oppo/PBEM00/proprietary/vendor/bin/xtwifi-client:$(TARGET_COPY_OUT_VENDOR)/bin/xtwifi-client \
     vendor/oppo/PBEM00/proprietary/vendor/bin/xtwifi-inet-agent:$(TARGET_COPY_OUT_VENDOR)/bin/xtwifi-inet-agent \
-    vendor/oppo/PBEM00/proprietary/vendor/etc/acdbdata/18041/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/18041/Bluetooth_cal.acdb \
-    vendor/oppo/PBEM00/proprietary/vendor/etc/acdbdata/18041/General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/18041/General_cal.acdb \
-    vendor/oppo/PBEM00/proprietary/vendor/etc/acdbdata/18041/Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/18041/Global_cal.acdb \
-    vendor/oppo/PBEM00/proprietary/vendor/etc/acdbdata/18041/Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/18041/Handset_cal.acdb \
-    vendor/oppo/PBEM00/proprietary/vendor/etc/acdbdata/18041/Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/18041/Hdmi_cal.acdb \
-    vendor/oppo/PBEM00/proprietary/vendor/etc/acdbdata/18041/Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/18041/Headset_cal.acdb \
-    vendor/oppo/PBEM00/proprietary/vendor/etc/acdbdata/18041/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/18041/Speaker_cal.acdb \
+    vendor/oppo/PBEM00/proprietary/vendor/etc/acdbdata/18085/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/18085/Bluetooth_cal.acdb \
+    vendor/oppo/PBEM00/proprietary/vendor/etc/acdbdata/18085/CMCC/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/18085/CMCC/Bluetooth_cal.acdb \
+    vendor/oppo/PBEM00/proprietary/vendor/etc/acdbdata/18085/CMCC/General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/18085/CMCC/General_cal.acdb \
+    vendor/oppo/PBEM00/proprietary/vendor/etc/acdbdata/18085/CMCC/Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/18085/CMCC/Global_cal.acdb \
+    vendor/oppo/PBEM00/proprietary/vendor/etc/acdbdata/18085/CMCC/Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/18085/CMCC/Handset_cal.acdb \
+    vendor/oppo/PBEM00/proprietary/vendor/etc/acdbdata/18085/CMCC/Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/18085/CMCC/Hdmi_cal.acdb \
+    vendor/oppo/PBEM00/proprietary/vendor/etc/acdbdata/18085/CMCC/Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/18085/CMCC/Headset_cal.acdb \
+    vendor/oppo/PBEM00/proprietary/vendor/etc/acdbdata/18085/CMCC/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/18085/CMCC/Speaker_cal.acdb \
+    vendor/oppo/PBEM00/proprietary/vendor/etc/acdbdata/18085/General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/18085/General_cal.acdb \
+    vendor/oppo/PBEM00/proprietary/vendor/etc/acdbdata/18085/Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/18085/Global_cal.acdb \
+    vendor/oppo/PBEM00/proprietary/vendor/etc/acdbdata/18085/Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/18085/Handset_cal.acdb \
+    vendor/oppo/PBEM00/proprietary/vendor/etc/acdbdata/18085/Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/18085/Hdmi_cal.acdb \
+    vendor/oppo/PBEM00/proprietary/vendor/etc/acdbdata/18085/Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/18085/Headset_cal.acdb \
+    vendor/oppo/PBEM00/proprietary/vendor/etc/acdbdata/18085/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/18085/Speaker_cal.acdb \
     vendor/oppo/PBEM00/proprietary/vendor/etc/apdr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/apdr.conf \
     vendor/oppo/PBEM00/proprietary/vendor/etc/cacert_location.pem:$(TARGET_COPY_OUT_VENDOR)/etc/cacert_location.pem \
     vendor/oppo/PBEM00/proprietary/vendor/etc/camera/Charming.cng:$(TARGET_COPY_OUT_VENDOR)/etc/camera/Charming.cng \
@@ -223,7 +230,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/PBEM00/proprietary/vendor/etc/perf/targetconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetconfig.xml \
     vendor/oppo/PBEM00/proprietary/vendor/etc/perf/targetresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetresourceconfigs.xml \
     vendor/oppo/PBEM00/proprietary/vendor/etc/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml \
-    vendor/oppo/PBEM00/proprietary/vendor/etc/qdcm_calib_data_oppo18041samsung_ams653tk01_1080_2340_cmd_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_oppo18041samsung_ams653tk01_1080_2340_cmd_mode_dsi_panel.xml \
+    vendor/oppo/PBEM00/proprietary/vendor/etc/qdcm_calib_data_oppo18081samsung_ams641rw01_1080_2340_cmd_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_oppo18081samsung_ams641rw01_1080_2340_cmd_mode_dsi_panel.xml \
     vendor/oppo/PBEM00/proprietary/vendor/etc/sap.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sap.conf \
     vendor/oppo/PBEM00/proprietary/vendor/etc/sec_config:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config \
     vendor/oppo/PBEM00/proprietary/vendor/etc/seccomp_policy/mediacodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy \
@@ -307,7 +314,8 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/PBEM00/proprietary/vendor/firmware/a630_gmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a630_gmu.bin \
     vendor/oppo/PBEM00/proprietary/vendor/firmware/a630_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a630_sqe.fw \
     vendor/oppo/PBEM00/proprietary/vendor/firmware/dbmd4_va_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/dbmd4_va_fw.bin \
-    vendor/oppo/PBEM00/proprietary/vendor/firmware/fastchg/18081/oppo_vooc_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fastchg/18081/oppo_vooc_fw.bin \
+    vendor/oppo/PBEM00/proprietary/vendor/firmware/fastchg/18085/oppo_vooc_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fastchg/18085/oppo_vooc_fw.bin \
+    vendor/oppo/PBEM00/proprietary/vendor/firmware/fastchg/18085/oppo_vooc_fw_n76e.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fastchg/18085/oppo_vooc_fw_n76e.bin \
     vendor/oppo/PBEM00/proprietary/vendor/firmware/ipa_fws.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b00 \
     vendor/oppo/PBEM00/proprietary/vendor/firmware/ipa_fws.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b01 \
     vendor/oppo/PBEM00/proprietary/vendor/firmware/ipa_fws.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b02 \
@@ -315,10 +323,10 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/PBEM00/proprietary/vendor/firmware/ipa_fws.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b04 \
     vendor/oppo/PBEM00/proprietary/vendor/firmware/ipa_fws.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.elf \
     vendor/oppo/PBEM00/proprietary/vendor/firmware/ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.mdt \
-    vendor/oppo/PBEM00/proprietary/vendor/firmware/tfa98xx_18041.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx_18041.cnt \
-    vendor/oppo/PBEM00/proprietary/vendor/firmware/tp/18081/FW_S3706_SAMSUNG.img:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/18081/FW_S3706_SAMSUNG.img \
-    vendor/oppo/PBEM00/proprietary/vendor/firmware/tp/18081/FW_S3706_SAMSUNG_FAE.img:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/18081/FW_S3706_SAMSUNG_FAE.img \
-    vendor/oppo/PBEM00/proprietary/vendor/firmware/tp/18081/LIMIT_S3706_SAMSUNG.img:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/18081/LIMIT_S3706_SAMSUNG.img \
+    vendor/oppo/PBEM00/proprietary/vendor/firmware/tfa98xx_18085.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx_18085.cnt \
+    vendor/oppo/PBEM00/proprietary/vendor/firmware/tp/18085/FW_S3706_SAMSUNG.img:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/18085/FW_S3706_SAMSUNG.img \
+    vendor/oppo/PBEM00/proprietary/vendor/firmware/tp/18085/FW_S3706_SAMSUNG_FAE.img:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/18085/FW_S3706_SAMSUNG_FAE.img \
+    vendor/oppo/PBEM00/proprietary/vendor/firmware/tp/18085/LIMIT_S3706_SAMSUNG.img:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/18085/LIMIT_S3706_SAMSUNG.img \
     vendor/oppo/PBEM00/proprietary/vendor/firmware/widevine.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b00 \
     vendor/oppo/PBEM00/proprietary/vendor/firmware/widevine.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b01 \
     vendor/oppo/PBEM00/proprietary/vendor/firmware/widevine.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b02 \
