@@ -504,6 +504,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/PBEM00/proprietary/vendor/lib/liboppo_platform_hwi.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboppo_platform_hwi.so \
     vendor/oppo/PBEM00/proprietary/vendor/lib/libopposfr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libopposfr.so \
     vendor/oppo/PBEM00/proprietary/vendor/lib/libpvr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpvr.so \
+    vendor/oppo/PBEM00/proprietary/vendor/lib/libqcbor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcbor.so \
     vendor/oppo/PBEM00/proprietary/vendor/lib/libqmi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi.so \
     vendor/oppo/PBEM00/proprietary/vendor/lib/libqmi_cci.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_cci.so \
     vendor/oppo/PBEM00/proprietary/vendor/lib/libqmi_client_helper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_client_helper.so \
