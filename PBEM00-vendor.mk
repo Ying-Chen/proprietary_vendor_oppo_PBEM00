@@ -370,9 +370,9 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/PBEM00/proprietary/vendor/firmware/ipa_fws.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.elf \
     vendor/oppo/PBEM00/proprietary/vendor/firmware/ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.mdt \
     vendor/oppo/PBEM00/proprietary/vendor/firmware/tfa98xx_18085.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx_18085.cnt \
-    vendor/oppo/PBEM00/proprietary/vendor/firmware/tp/18085/FW_S3706_SAMSUNG.img:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/18085/FW_S3706_SAMSUNG.img \
-    vendor/oppo/PBEM00/proprietary/vendor/firmware/tp/18085/FW_S3706_SAMSUNG_FAE.img:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/18085/FW_S3706_SAMSUNG_FAE.img \
-    vendor/oppo/PBEM00/proprietary/vendor/firmware/tp/18085/LIMIT_S3706_SAMSUNG.img:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/18085/LIMIT_S3706_SAMSUNG.img \
+    vendor/oppo/PBEM00/proprietary/vendor/firmware/tp/18081/FW_S3706_SAMSUNG.img:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/18081/FW_S3706_SAMSUNG.img \
+    vendor/oppo/PBEM00/proprietary/vendor/firmware/tp/18081/FW_S3706_SAMSUNG_FAE.img:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/18081/FW_S3706_SAMSUNG_FAE.img \
+    vendor/oppo/PBEM00/proprietary/vendor/firmware/tp/18081/LIMIT_S3706_SAMSUNG.img:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/18081/LIMIT_S3706_SAMSUNG.img \
     vendor/oppo/PBEM00/proprietary/vendor/firmware/widevine.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b00 \
     vendor/oppo/PBEM00/proprietary/vendor/firmware/widevine.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b01 \
     vendor/oppo/PBEM00/proprietary/vendor/firmware/widevine.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b02 \
