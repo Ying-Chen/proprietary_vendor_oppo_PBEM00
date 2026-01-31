@@ -348,6 +348,33 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/PBEM00/proprietary/vendor/firmware/goodixfp.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b06 \
     vendor/oppo/PBEM00/proprietary/vendor/firmware/goodixfp.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b07 \
     vendor/oppo/PBEM00/proprietary/vendor/firmware/goodixfp.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.mdt \
+    vendor/oppo/PBEM00/proprietary/vendor/firmware/sileadta_16bit.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/sileadta_16bit.b00 \
+    vendor/oppo/PBEM00/proprietary/vendor/firmware/sileadta_16bit.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/sileadta_16bit.b01 \
+    vendor/oppo/PBEM00/proprietary/vendor/firmware/sileadta_16bit.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/sileadta_16bit.b02 \
+    vendor/oppo/PBEM00/proprietary/vendor/firmware/sileadta_16bit.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/sileadta_16bit.b03 \
+    vendor/oppo/PBEM00/proprietary/vendor/firmware/sileadta_16bit.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/sileadta_16bit.b04 \
+    vendor/oppo/PBEM00/proprietary/vendor/firmware/sileadta_16bit.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/sileadta_16bit.b05 \
+    vendor/oppo/PBEM00/proprietary/vendor/firmware/sileadta_16bit.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/sileadta_16bit.b06 \
+    vendor/oppo/PBEM00/proprietary/vendor/firmware/sileadta_16bit.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/sileadta_16bit.b07 \
+    vendor/oppo/PBEM00/proprietary/vendor/firmware/sileadta_16bit.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/sileadta_16bit.mdt \
+    vendor/oppo/PBEM00/proprietary/vendor/firmware/sileadta.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/sileadta.b00 \
+    vendor/oppo/PBEM00/proprietary/vendor/firmware/sileadta.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/sileadta.b01 \
+    vendor/oppo/PBEM00/proprietary/vendor/firmware/sileadta.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/sileadta.b02 \
+    vendor/oppo/PBEM00/proprietary/vendor/firmware/sileadta.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/sileadta.b03 \
+    vendor/oppo/PBEM00/proprietary/vendor/firmware/sileadta.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/sileadta.b04 \
+    vendor/oppo/PBEM00/proprietary/vendor/firmware/sileadta.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/sileadta.b05 \
+    vendor/oppo/PBEM00/proprietary/vendor/firmware/sileadta.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/sileadta.b06 \
+    vendor/oppo/PBEM00/proprietary/vendor/firmware/sileadta.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/sileadta.b07 \
+    vendor/oppo/PBEM00/proprietary/vendor/firmware/sileadta.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/sileadta.mdt \
+    vendor/oppo/PBEM00/proprietary/vendor/firmware/sileadta_new16bit.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/sileadta_new16bit.b00 \
+    vendor/oppo/PBEM00/proprietary/vendor/firmware/sileadta_new16bit.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/sileadta_new16bit.b01 \
+    vendor/oppo/PBEM00/proprietary/vendor/firmware/sileadta_new16bit.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/sileadta_new16bit.b02 \
+    vendor/oppo/PBEM00/proprietary/vendor/firmware/sileadta_new16bit.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/sileadta_new16bit.b03 \
+    vendor/oppo/PBEM00/proprietary/vendor/firmware/sileadta_new16bit.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/sileadta_new16bit.b04 \
+    vendor/oppo/PBEM00/proprietary/vendor/firmware/sileadta_new16bit.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/sileadta_new16bit.b05 \
+    vendor/oppo/PBEM00/proprietary/vendor/firmware/sileadta_new16bit.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/sileadta_new16bit.b06 \
+    vendor/oppo/PBEM00/proprietary/vendor/firmware/sileadta_new16bit.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/sileadta_new16bit.b07 \
+    vendor/oppo/PBEM00/proprietary/vendor/firmware/sileadta_new16bit.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/sileadta_new16bit.mdt \
     vendor/oppo/PBEM00/proprietary/vendor/firmware/CAMERA_ICP.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.elf \
     vendor/oppo/PBEM00/proprietary/vendor/firmware/a615_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a615_zap.b00 \
     vendor/oppo/PBEM00/proprietary/vendor/firmware/a615_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a615_zap.b01 \
@@ -463,6 +490,8 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/PBEM00/proprietary/vendor/lib/hw/fingerprint.goodix_G2.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fingerprint.goodix_G2.default.so \
     vendor/oppo/PBEM00/proprietary/vendor/lib/hw/fingerprint.goodix_G3.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fingerprint.goodix_G3.default.so \
     vendor/oppo/PBEM00/proprietary/vendor/lib/hw/fingerprint.goodix_G5.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fingerprint.goodix_G5.default.so \
+    vendor/oppo/PBEM00/proprietary/vendor/lib/hw/fingerprint.silead_16bit.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fingerprint.silead_16bit.default.so \
+    vendor/oppo/PBEM00/proprietary/vendor/lib/hw/fingerprint.silead.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fingerprint.silead.default.so \
     vendor/oppo/PBEM00/proprietary/vendor/lib/hw/sound_trigger.primary.sdm710.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.sdm710.so \
     vendor/oppo/PBEM00/proprietary/vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so \
     vendor/oppo/PBEM00/proprietary/vendor/lib/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so \
@@ -558,6 +587,11 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/PBEM00/proprietary/vendor/lib/libqti-perfd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-perfd-client.so \
     vendor/oppo/PBEM00/proprietary/vendor/lib/libqtigef.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqtigef.so \
     vendor/oppo/PBEM00/proprietary/vendor/lib/libsdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdsprpc.so \
+    vendor/oppo/PBEM00/proprietary/vendor/lib/libsl_fp_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsl_fp_algo.so \
+    vendor/oppo/PBEM00/proprietary/vendor/lib/libsl_fp_impl_16bit.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsl_fp_impl_16bit.so \
+    vendor/oppo/PBEM00/proprietary/vendor/lib/libsl_fp_impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsl_fp_impl.so \
+    vendor/oppo/PBEM00/proprietary/vendor/lib/libsl_fp_nosec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsl_fp_nosec.so \
+    vendor/oppo/PBEM00/proprietary/vendor/lib/libsl_fp_prepro.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsl_fp_prepro.so \
     vendor/oppo/PBEM00/proprietary/vendor/lib/libsmwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsmwrapper.so \
     vendor/oppo/PBEM00/proprietary/vendor/lib/libsnsapi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsnsapi.so \
     vendor/oppo/PBEM00/proprietary/vendor/lib/libstblur_capture_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstblur_capture_api.so \
@@ -749,6 +783,8 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/PBEM00/proprietary/vendor/lib64/hw/fingerprint.goodix_G2.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.goodix_G2.default.so \
     vendor/oppo/PBEM00/proprietary/vendor/lib64/hw/fingerprint.goodix_G3.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.goodix_G3.default.so \
     vendor/oppo/PBEM00/proprietary/vendor/lib64/hw/fingerprint.goodix_G5.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.goodix_G5.default.so \
+    vendor/oppo/PBEM00/proprietary/vendor/lib64/hw/fingerprint.silead_16bit.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.silead_16bit.default.so \
+    vendor/oppo/PBEM00/proprietary/vendor/lib64/hw/fingerprint.silead.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.silead.default.so \
     vendor/oppo/PBEM00/proprietary/vendor/lib64/hw/sound_trigger.primary.sdm710.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sound_trigger.primary.sdm710.so \
     vendor/oppo/PBEM00/proprietary/vendor/lib64/hw/vendor.qti.gnss@3.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.gnss@3.0-impl.so \
     vendor/oppo/PBEM00/proprietary/vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so \
@@ -974,6 +1010,11 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/PBEM00/proprietary/vendor/lib64/libsensorslog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorslog.so \
     vendor/oppo/PBEM00/proprietary/vendor/lib64/libsettings.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsettings.so \
     vendor/oppo/PBEM00/proprietary/vendor/lib64/libslimclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libslimclient.so \
+    vendor/oppo/PBEM00/proprietary/vendor/lib64/libsl_fp_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsl_fp_algo.so \
+    vendor/oppo/PBEM00/proprietary/vendor/lib64/libsl_fp_impl_16bit.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsl_fp_impl_16bit.so \
+    vendor/oppo/PBEM00/proprietary/vendor/lib64/libsl_fp_impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsl_fp_impl.so \
+    vendor/oppo/PBEM00/proprietary/vendor/lib64/libsl_fp_nosec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsl_fp_nosec.so \
+    vendor/oppo/PBEM00/proprietary/vendor/lib64/libsl_fp_prepro.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsl_fp_prepro.so \
     vendor/oppo/PBEM00/proprietary/vendor/lib64/libsns_device_mode_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_device_mode_stub.so \
     vendor/oppo/PBEM00/proprietary/vendor/lib64/libsns_fastRPC_util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_fastRPC_util.so \
     vendor/oppo/PBEM00/proprietary/vendor/lib64/libsns_low_lat_stream_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_low_lat_stream_stub.so \
